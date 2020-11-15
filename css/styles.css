@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:700');
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+body {
+	font-family: 'Vollkorn', serif;
+}
+
+.arabic_text {
+	font-family: 'scheherazade', serif;
+	text-align: right;
+	font-size: 1.4em;
+	direction: rtl;
+}
+
+.btn {
+	font-family: 'Vollkorn', serif;
+	font-size: 1em;
+	margin-top: 5px;
+}
+
+article {
+	display: block;
+	margin-top: 30px;
+}
+
+article img {
+  max-width: 200px;
+  float: left;
+  padding: 10px 10px 0 0;
+}
+
+.big_img {
+	max-width: 600px;
+	width:100%;
+	height: auto;
+	float: none;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+article h3 {
+	text-align: center;
+}
+
+#hijri-date, #greg-date {
+  text-align: center;
+}
+
+h1 {
+	font-family: 'Tangerine', cursive;
+	text-shadow: -5px 5px 5px rgba(0,0,0, 0.3);
+	font-size: 2.3em;
+}
+
+header {
+	margin-top: 5px;
+}
+
+dt {
+	margin-top: 15px;
+}
+
+.footer {
+	padding-top: 10px;
+	box-shadow: 0 -2px 10px #888888;
+	text-align: center;
+}
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+#wrapper {
+	margin-top: 0px;
+}
+
+#arabic_title {
+	font-family: 'Rakkas', cursive;
+	text-shadow: -5px 5px 5px rgba(0,0,0, 0.3);
+	font-size: 2.8em;
+	text-align: center;
+}
+
+#french_title {
+	font-family: 'Tangerine', cursive;
+	text-shadow: -5px 5px 5px rgba(0,0,0, 0.3);
+	font-size: 2.6em;
+	text-align: center;
+	margin-top: -15px;
+}
+
+#ccmd_infos {
+	font-size: 0.8em;
+}
